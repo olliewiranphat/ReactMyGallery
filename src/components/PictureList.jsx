@@ -9,7 +9,8 @@ function PictureList({ pictures, editPicByID, deletePicByID }) {
 
             {
                 pictures.map(picture => <PictureShow key={picture.id} picture={picture} editPicByID={editPicByID} deletePicByID={deletePicByID} />)
-            }</div>
+            }
+        </div>
     )
 }
 
